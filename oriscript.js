@@ -134,6 +134,7 @@ async function setLoser() {
   winnerprice.lastElementChild.innerHTML = `${formattedResults}`;
   money.innerHTML = `${formattedTotal}`;
 
+
   setTimeout(() => {
     withdrawPopUp();
   }, 4000); 
