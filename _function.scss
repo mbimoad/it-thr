@@ -1,0 +1,42 @@
+@mixin centerSVGElement($h) {
+    z-index: 9;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: $h;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin centerSVG($t, $b) {
+    position: absolute;
+    top: $t;
+    bottom: $b;
+    width: 100%;
+    text-align: center;
+}
+
+@mixin outsideButton($border, $w, $h, $bg) {
+    border: $border;
+    width: $w;
+    height: $h;
+    border-radius: 50%;
+    background-color: $bg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin innerButton($w, $h, $bg1, $bg2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%; 
+    height: 70%;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, $bg1, $bg2);
+}
