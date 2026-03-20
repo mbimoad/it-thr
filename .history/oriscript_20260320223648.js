@@ -130,7 +130,7 @@ async function setLoser() {
     style: 'currency',
     currency: 'IDR'
   }).format(0);
-  debugEl.textContent = `Saldo jadi ${formattedResults} :(`; 
+  debugEl.textContent = `Saldo jadi ${formattedResults} Rupiah :(`; 
   winnerprice.lastElementChild.innerHTML = `${formattedResults}`;
   money.innerHTML = `${formattedTotal}`;
 
