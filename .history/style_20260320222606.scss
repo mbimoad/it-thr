@@ -1695,19 +1695,12 @@ header.show {
     }
 }
 
+
 @media screen and (max-width: 550px) {
-    .losecondition, 
-    .winnercondition {
-        display: none;
+    .zeus {
+        img, 
+        img.loseImage {
+            width: auto;
+        }
     }
 }
-
-
-// @media screen and (max-width: 550px) {
-//     .zeus {
-//         img, 
-//         img.loseImage {
-//             width: auto;
-//         }
-//     }
-// }

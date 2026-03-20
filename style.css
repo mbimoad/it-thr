@@ -1595,8 +1595,8 @@ footer.show {
   }
 }
 @media screen and (max-width: 550px) {
-  .zeus img,
-  .zeus img.loseImage {
-    width: auto;
+  .losecondition,
+  .winnercondition {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
