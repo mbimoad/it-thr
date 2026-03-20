@@ -456,7 +456,7 @@ function determineWinner(r1,r2,r3, hritem) {
     }
 
     if(results == "0") {
-      debugEl.textContent = `Sisa ${spinvalue - 1} Spin :(`; 
+      debugEl.textContent = `${spinvalue - 1} Spin :(`; 
     } else {
         const formattedTotal = new Intl.NumberFormat('id-ID', {
           style: 'currency',
