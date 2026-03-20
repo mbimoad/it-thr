@@ -511,7 +511,7 @@ spinnow.addEventListener('click', async function(e) {
             setTimeout(rollAll, 0);
         }
       } else {
-          alert("Kamu kalah. withdraw !"); 
+          alert("You already lose. withraw now !"); 
       }
   }
 
